@@ -1,0 +1,219 @@
+.primary{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-align: left;
+    padding: 1em 0;
+    justify-content: center;
+    background-image: url("./images/fondoheader.jpg");
+}
+.secondary {
+    background-image: url("./images/fondoheaderdos.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 100px;
+    height: auto;
+}
+
+.btn-outline-light{
+    margin-right: 10px;
+    width:120px
+}
+
+.btn-outline-danger {
+    margin: 10px;
+    width: 130px;
+}
+
+main {
+    justify-content: center;
+    padding: 20px;
+}
+
+#dstext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+    background-color: #000000;
+    color: antiquewhite;
+    border-radius: 25px;
+}
+
+img {
+    width: 400px;
+    margin-bottom: 2%;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-form {
+    background-color: #000000;
+    border-radius: 50px;
+    color: aliceblue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.form-group{
+    color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: calc(100% - 20px);
+    max-width: 300px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+button {
+    border: white;
+    width: 18%;
+    height: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.modal {
+    display:none;
+    width: 30%;
+    height: 60%;
+}
+
+#destacadas {
+    background-image: url("./images/fondoheaderdos.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.film-card {
+    width: 300px;
+    height: 575px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    border: 1px solid #dee2e6; 
+    border-radius: 10px; 
+    background-color: #fff; 
+    padding: 10px; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.film-poster img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+.film-details {
+    color: #000000;
+    text-align: center; 
+
+}
+
+
+.film-title {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.film-info span {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 14px; 
+}
+
+#ultext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+    background-color: #000000;
+    color: antiquewhite;
+    border-radius: 25px;
+}
+
+#info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+    background-color: #000000;
+    color: antiquewhite;
+    border-radius: 25px;
+}
+
+.newFilm-card {
+    width: 300px;
+    height: 575px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    border: 1px solid #dee2e6; 
+    border-radius: 10px; 
+    background-color: #fff; 
+    padding: 10px; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.newFilm-poster img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+.newFilm-details {
+    color: #000000;
+    text-align: center; 
+
+}
+
+.newFilm-title {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.newFilm-info span {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 14px; 
+}
+
+#ultimos-lanzamientos {
+    background-image: url("./images/fondoheaderdos.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
